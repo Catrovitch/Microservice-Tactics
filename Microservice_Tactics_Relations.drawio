@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T13:25:15.707Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="3_vg0H1Yt4fuFmF6Ac2A" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T10:37:48.891Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="4BiHx7RKxH6EXM6-4ngj" version="22.0.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="5505" dy="3180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="4310" dy="2520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,7 +267,7 @@
           <mxGeometry x="20" y="85" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cCLrs_CAnp8vthAAdHYO-24" value="Security" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="170" y="770" width="480" height="530" as="geometry" />
+          <mxGeometry x="-120" y="750" width="480" height="530" as="geometry" />
         </mxCell>
         <mxCell id="cCLrs_CAnp8vthAAdHYO-80" value="Security Monitor" style="swimlane;whiteSpace=wrap;html=1;startSize=35;fillColor=#fff2cc;strokeColor=#d6b656;" parent="cCLrs_CAnp8vthAAdHYO-24" vertex="1">
           <mxGeometry x="10" y="50" width="200" height="200" as="geometry" />
