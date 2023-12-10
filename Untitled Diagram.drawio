@@ -1,9 +1,260 @@
-<mxfile host="app.diagrams.net" modified="2023-12-10T09:54:12.511Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" version="22.1.7" etag="oauJT-HbETMtv4l8Iyb6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-10T10:41:47.860Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="Uflm8ydZ7LgJ48N2fcEh" version="22.1.7" type="github">
   <diagram name="Page-1" id="W-vjmQ06WFevvg6zpkf7">
-    <mxGraphModel>
+    <mxGraphModel dx="1593" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-1" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-3" value="&lt;b&gt;Monolithic &lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="190" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-4" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;" vertex="1" parent="1">
+          <mxGeometry x="650" y="220" width="200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-5" value="&lt;b&gt;Microservice&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="190" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-41" value="&lt;b style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;1&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-42" value="&lt;b&gt;2&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-100" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;swimlaneLine=1;align=left;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="590" width="1200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-101" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-171" value="1. Monoliths perform better at low workloads  " style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-101">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-102" value="2. Microservices perform better at high workloads" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-101">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-103" value="14. Zero downtime when deploying updates" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-101">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-146" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-101">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-104" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="29" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-172" value="8.When small, Monoliths are simpler to deploy" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-104">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-105" value="3. Heterogeneous technologies may improve performance" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-104">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-106" value="19. Microservices can be more robust against Ddos attacks" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-104">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-147" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-104">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-107" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="58" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-173" value="9. Big Monolith deployments are slow and risky" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-107">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-108" value="4. Independent scaling of microservices" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-107">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-109" value="20. Microservices can fail gracefully" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-107">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-148" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-107">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-110" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="87" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-174" value="15. Monoliths are always deployed as a whole" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-110">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-111" value="5. Potentially 1-1/n more efficient scaling" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-110">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-112" value="21. Heterogenous --&amp;gt; switch dependencies faster" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-110">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-149" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-110">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-113" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="116" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-175" value="&lt;div&gt;16. Monoliths have less entry points to secure&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-113">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-114" value="6. Heterogeneous choosing of machine --&amp;gt; cost benefits" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-113">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-115" value="22. Microservices have smaller dependency trees" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-113">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-150" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-113">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-116" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="145" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-176" value="17. Big Monoliths can be hard to update" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-116">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-117" value="7. Microservices can react fast to rapidly increasing or decreasing workloads" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-116">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-118" value="23.Better isolation between parts of the program" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-116">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-151" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-116">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-119" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="174" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-177" value="18. If a Monolith crashes it is usually total" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-119">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-120" value="10. Independent deployment of microservices" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-119">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-121" value="24. Lack of research about security in Microservices" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-119">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-152" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-119">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-122" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="203" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-178" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-122">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-123" value="11. integration between microservices when deploying non-local changes" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-122">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-124" value="25. Microservice communication lines need to be secured" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-122">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-153" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-122">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-125" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="232" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-179" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-125">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-126" value="12. Needs extra infrastructure to realize benefits" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-125">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-127" value="26. Individual microservices can&#39;t be trusted" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-125">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-154" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;fontStyle=2" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-125">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-128" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-100">
+          <mxGeometry y="261" width="1200" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-180" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-128">
+          <mxGeometry width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-129" value="13. Microservices can be deployed faster" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;fontStyle=2;spacingLeft=8;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-128">
+          <mxGeometry x="300" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-130" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-128">
+          <mxGeometry x="600" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MGnrqEhcIA2YN0ipRjTh-155" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;fontSize=11;spacingLeft=7;" vertex="1" parent="MGnrqEhcIA2YN0ipRjTh-128">
+          <mxGeometry x="900" width="300" height="29" as="geometry">
+            <mxRectangle width="300" height="29" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
